@@ -1,0 +1,65 @@
+.check-step {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
+.check-step-doing:after {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 95%;
+  border: 2px solid #3F5D45;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #EAF0ED;
+}
+
+.check-form-group input, .check-form-group select {
+  height: 56px;
+  width: 100%;
+  background-color: #EAF0ED;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.checkout3_checkbox {
+  height: 56px;
+}
+
+.check-success {
+  height: 460px;
+}
+
+@media (max-width: 768px) {
+  .check-success {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.check-success .step-group {
+  width: 190px;
+}
+
+.success-lg-btn {
+  margin-top: 51.34px;
+}
+
+@media (max-width: 768px) {
+  .success-lg-btn {
+    margin-top: auto;
+    width: 100%;
+  }
+}
+
+.check_cart_img {
+  height: 80px;
+  width: 120px;
+}
+/*# sourceMappingURL=check_out_group.css.map */

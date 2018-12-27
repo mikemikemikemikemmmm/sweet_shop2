@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>myapp</title>
+  <link rel="stylesheet" href="./css/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but myapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <!--header start-->
+  <header class="container">
+    <nav class="navbar navbar-expand-md navbar-light px-0 py-5">
+      <button class="navbar-toggler ml-6 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto mx-md-0 flex-center" href="./index.html">
+        <img class="d-none d-md-inline mr-2" src="./image/logo-dark.svg" height="40px" alt="">
+        <img class="d-none d-md-inline" src="./image/logotype-lg-dark.svg" height="26.6px" alt="">
+        <img class="d-md-none" src="./image/logotype-sm-dark.svg" height="17.74px" alt="">
+      </a>
+      <a class="ml-md-6 ml-0 mr-md-0 mr-6 flex-center order-md-last" href="./cart.html">
+        <i class="material-icons text-primary">
+          shopping_cart
+        </i>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-6">
+            <a class="nav-link" href="./index.html">首頁<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-6">
+            <a class="nav-link" href="./product.html">甜點</a>
+          </li>
+          <li class="nav-item mx-6">
+            <a class="nav-link" href="./login.html">登入</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--header end-->
+  <!--check_out1 start-->
+  <div class="container mb-0 mb-md-10">
+    <div class="row justify-content-center">
+      <div class="col-md-6 check-form-group">
+        <div class="bg-primary text-secondary px-8 py-6">
+          <!--step group start-->
+          <div class="row pb-6">
+            <h2 class="col-6">運送</h2>
+            <div class="col-6 flex-center">
+              <div class="check-step check-step-doing border bg-secondary rounded-circle text-primary flex-center">
+              </div>
+              <div class="flex-grow-1 border border-top"></div>
+              <div class="check-step border rounded-circle"></div>
+              <div class="flex-grow-1 border border-top"></div>
+              <div class="check-step border rounded-circle"></div>
+            </div>
+          </div>
+          <!--step group end-->
+          <!--form input start-->
+          <div class="row">
+            <div class="col-6 pb-2">姓氏</div>
+            <div class="col-6 pb-2">名字</div>
+            <div class="col-6 pb-3">
+              <input type="text">
+            </div>
+            <div class="col-6 pb-3">
+              <input type="text">
+            </div>
+            <div class="col-12 pb-2">電話</div>
+            <div class="col-12 pb-3"><input type="text"></div>
+            <div class="col-12 pb-2">地址</div>
+            <div class="col-6 pb-3"><input type="text"></div>
+            <div class="col-6 pb-3"><input type="text"></div>
+            <div class="col-12 pb-3"><input type="text"></div>
+          </div>
+          <!--form input end-->
+        </div>
+        <a class="d-block bg-third text-primary text-center py-3" href="./check_out2.html">
+          下一步
+        </a>
+      </div>
+      <!--order group start-->
+      <div class="col-md-4 d-none d-md-block text-fourth">
+        <div class="mb-4 border border-secondary">
+          <h4 class="bg-secondary py-3 text-center">訂單摘要</h4>
+          <div class="px-4 py-3">
+            <div class="d-flex w-100 mb-2">
+              <h6>小計</h6>
+              <h6 class="ml-auto">$400</h6>
+            </div>
+            <div class="d-flex w-100 mb-4">
+              <h6>運費</h6>
+              <h6 class="ml-auto">$400</h6>
+            </div>
+            <div class="d-flex w-100">
+              <h5>總計</h5>
+              <h5 class="ml-auto">$9000</h5>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary">
+          <h4 class="bg-secondary py-3 text-center">購物清單</h4>
+          <div class="py-3 px-4">
+            <div class="d-flex mb-3">
+              <div class="check_cart_img bg-center" style="background-image: url('./image/cart1.jpg')"></div>
+              <div class="ml-auto">
+                <span>
+                  <h6>焦糖瑪卡龍(2)</h6>
+                  <h5>NT$400</h5>
+                </span>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <div class="check_cart_img bg-center" style="background-image: url('./image/cart1.jpg')"></div>
+              <div class="ml-auto">
+                <span>
+                  <h6>焦糖瑪卡龍(2)</h6>
+                  <h5>NT$400</h5>
+                </span>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <div class="check_cart_img bg-center" style="background-image: url('./image/cart1.jpg')"></div>
+              <div class="ml-auto">
+                <span>
+                  <h6>焦糖瑪卡龍(2)</h6>
+                  <h5>NT$400</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--order group end-->
+    </div>
+  </div>
+  <!--check_out1 end-->
+  <!--email start-->
+  <div class="container bg-primary">
+      <div class="row flex-center h-100 py-6">
+        <div class="col-12 col-md-5 d-flex email-text-group mb-4 mb-md-0">
+          <img class="mr-4" src="./image/logo-light.svg" height="40px" alt="">
+          <h4 class="text-secondary d-flex align-items-center">
+            訂閱你我的甜蜜郵件
+          </h4>
+        </div>
+        <div class="col-12 col-md-5 d-flex justify-content-center px-3">
+          <div class="py-4 px-4 bg-secondary">
+            <img src="./image/baseline-email-24px.svg" width="24px" alt="">
+          </div>
+          <input class="email-input-box bg-secondary" type="text">
+          <a class=" flex-center email-input-arrow bg-third px-4">
+            <img src="./image/baseline-shopping_cart-24px.svg" width="24px" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--email end-->
+
+  <!--footer start-->
+  <footer class="container footer py-6 px-6 px-md-0 bg-secondary">
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-12">
+        <div class="footer-left-logo">
+          <img src="./image/logotype-lg-dark.svg" height="27px" alt="">
+        </div>
+        <p class="footer-left-p mb-6 text-primary">
+          07-1234-5678</br>
+          sweetaste@email.com</br>
+          800 高雄市新興區幸福路 520 號
+        </p>
+      </div>
+      <div class="col-md-5 d-none d-md-flex justify-content-end">
+        <img src="./image/sm-今天是個吃甜點的好日子.svg" height="218.69px" alt="">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-12">
+        <div class="footer-left-share">
+          <img src="./image/ic-line@.svg" height="32px" alt="">
+          <img src="./image/ic-facebook.svg" height="32px" alt="">
+        </div>
+      </div>
+      <div class="col-md-5 col-12 d-flex">
+        <p class="footer-rights text-primary">
+          © 2018 Sweetaste* All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!--footer end-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

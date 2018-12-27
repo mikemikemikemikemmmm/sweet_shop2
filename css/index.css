@@ -1,0 +1,149 @@
+/*introduce-group start*/
+.introduce-group {
+  height: 247px;
+}
+
+@media (max-width: 768px) {
+  .introduce-group {
+    height: auto;
+  }
+}
+
+.introduce-card-group {
+  top: -80px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .introduce-card-group {
+    position: static;
+    top: 0px;
+  }
+}
+
+.introduce-cardbox {
+  height: 256px;
+  overflow: hidden;
+}
+
+.introduce-cardbox:hover .introduce-card-text {
+  color: #3F5D45;
+}
+
+.introduce-cardbox:hover .introduce-card-text-bg {
+  background-color: #FFE180;
+}
+
+.introduce-cardbox:hover .introduce-card-bg {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+.introduce-card-bg {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.introduce-card-text-bg {
+  opacity: 0.8;
+  background-color: #3F5D45;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.introduce-card-allitem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.introduce-card-text {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  font-weight: bolder;
+  color: #ffffff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  line-height: 30px;
+}
+
+/*introduce-group end*/
+/*section start*/
+.section-warp {
+  background-color: #EAF0ED;
+}
+
+@media (max-width: 768px) {
+  .section-warp {
+    background-color: #fff;
+  }
+}
+
+.section3 {
+  height: 503px;
+}
+
+@media (max-width: 768px) {
+  .section3 {
+    height: auto;
+  }
+}
+
+.section1, .section2 {
+  height: 420px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .section1, .section2 {
+    height: auto;
+    margin-bottom: 0;
+  }
+}
+
+.section-article {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  color: #8DA291;
+  height: 280px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+@media (max-width: 768px) {
+  .section-article {
+    height: auto;
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    background-color: #EAF0ED;
+  }
+}
+
+.section-img-box {
+  height: 460px;
+}
+
+@media (max-width: 768px) {
+  .section-img-box {
+    height: 250px;
+  }
+}
+
+.section-title {
+  min-height: 60px;
+  margin: 0 20%;
+}
+
+.section-md-title {
+  height: 460px;
+}
+
+/*section end*/
+/*# sourceMappingURL=index.css.map */
