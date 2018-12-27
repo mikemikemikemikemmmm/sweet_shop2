@@ -1,0 +1,108 @@
+/*banner start*/
+.banner {
+  height: 496px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 277px;
+  }
+}
+
+/*banner end*/
+/*email start*/
+.email-group {
+  height: 116px;
+}
+
+@media (max-width: 768px) {
+  .email-group {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .email-text-group, .email-input-group {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/*email end*/
+/*buy-card-group start*/
+.buy-card-group {
+  height: 434px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .buy-card-group {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .buy-card-group .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.card-img {
+  height: 315px;
+}
+
+.card-img-today {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  left: 20px;
+  height: 106.73px;
+  width: 36px;
+}
+
+.card-img-love {
+  right: 20px;
+  top: 20px;
+  width: 20px;
+}
+
+/*buy-card-group end*/
+/*footer start*/
+footer {
+  height: 341px;
+}
+
+.footer-left-logo {
+  margin-bottom: 115.5px;
+}
+
+@media (max-width: 768px) {
+  .footer-left-logo {
+    margin-bottom: 40px;
+  }
+}
+
+.footer-left-p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-rights {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .footer-rights {
+    margin-left: 0;
+    margin-top: 23px;
+  }
+}
+
+/*footer end*/
+/*# sourceMappingURL=global_components.css.map */

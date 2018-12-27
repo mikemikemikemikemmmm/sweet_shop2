@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>myapp</title>
+  <link rel="stylesheet" href="./css/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but myapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <!--header start-->
+  <header class="container">
+    <nav class="navbar navbar-expand-md navbar-light px-0 py-5">
+      <button class="navbar-toggler ml-6 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto mx-md-0 flex-center" href="./index.html">
+        <img class="d-none d-md-inline mr-2" src="./image/logo-dark.svg" height="40px" alt="">
+        <img class="d-none d-md-inline" src="./image/logotype-lg-dark.svg" height="26.6px" alt="">
+        <img class="d-md-none" src="./image/logotype-sm-dark.svg" height="17.74px" alt="">
+      </a>
+      <a class="ml-md-6 ml-0 mr-md-0 mr-6 flex-center order-md-last" href="./cart.html">
+        <i class="material-icons text-primary">
+          shopping_cart
+        </i>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-6">
+            <a class="nav-link" href="./index.html">首頁<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-6">
+            <a class="nav-link" href="./product.html">甜點</a>
+          </li>
+          <li class="nav-item mx-6">
+            <a class="nav-link" href="./login.html">登入</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--header end-->
+  <!--cart start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="px-3 px-md-0">
+          <div class=" bg-secondary text-center py-3">
+          您的購物車
+          </div>
+        </div>
+        <div class="cart-group py-md-4 p-6 px-md-0 border-bottom border-secondary d-flex justify-content-between flex-column flex-md-row">
+          <div class="d-flex flex-grow-1 flex-md-grow-0 mb-2 mb-md-0">
+            <div class="bg-center flex-grow-1 flex-md-grow-0 cart-img mr-2 mr-md-1" style="background-image: url('../image/cart1.jpg')"></div>
+            <div class="d-flex flex-column flex-md-row mx-md-2">
+              <div class="text-primary d-flex align-items-center mr-2 mb-2 mb-md-0">
+                <div>
+                <h6 class="mb-2">焦糖瑪奇朵</h6>
+                <h6>NT$400</h6>
+                </div>
+              </div>
+              <div class="flex-center">
+                <button class="cart-num-item bg-white border border-secondary">-</button>
+                <input class="cart-num-item  border border-secondary" type="text">
+                <button class="cart-num-item bg-white border border-secondary">+</button>
+              </div>
+            </div>
+          </div>
+          <h5 class="text-primary text-right py-md-0 py-2">NT$900</h5>
+          <div class="d-none d-md-block">
+            <i class="material-icons">
+              restore_from_trash
+            </i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cart-pay-group text-center p-3">
+          <h4 class="cart-pay-summary mb-0 py-3">
+            訂單摘要
+          </h4>
+          <div class="pt-2">
+            <div class="d-flex py-1"><h6>小計</h6><h6 class="ml-auto">NT$900</h6></div>
+            <div class="d-flex py-1"><h6>運費</h6><h6 class="ml-auto">NT$900</h6></div>
+            <div class="d-flex py-1"><h5>總計</h5><h5 class="ml-auto">NT$900</h5></div>
+          </div>
+        </div>
+        <a class="d-block bg-third text-primary text-center py-3" href="./check_out1.html">
+          結帳
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--cart end-->
+  <!--email start-->
+  <div class="container bg-primary">
+      <div class="row flex-center h-100 py-6">
+        <div class="col-12 col-md-5 d-flex email-text-group mb-4 mb-md-0">
+          <img class="mr-4" src="./image/logo-light.svg" height="40px" alt="">
+          <h4 class="text-secondary d-flex align-items-center">
+            訂閱你我的甜蜜郵件
+          </h4>
+        </div>
+        <div class="col-12 col-md-5 d-flex justify-content-center px-3">
+          <div class="py-4 px-4 bg-secondary">
+            <img src="./image/baseline-email-24px.svg" width="24px" alt="">
+          </div>
+          <input class="email-input-box bg-secondary" type="text">
+          <a class=" flex-center email-input-arrow bg-third px-4">
+            <img src="./image/baseline-shopping_cart-24px.svg" width="24px" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--email end-->
+
+  <!--footer start-->
+  <footer class="container footer py-6 px-6 px-md-0 bg-secondary">
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-12">
+        <div class="footer-left-logo">
+          <img src="./image/logotype-lg-dark.svg" height="27px" alt="">
+        </div>
+        <p class="footer-left-p mb-6 text-primary">
+          07-1234-5678</br>
+          sweetaste@email.com</br>
+          800 高雄市新興區幸福路 520 號
+        </p>
+      </div>
+      <div class="col-md-5 d-none d-md-flex justify-content-end">
+        <img src="./image/sm-今天是個吃甜點的好日子.svg" height="218.69px" alt="">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-12">
+        <div class="footer-left-share">
+          <img src="./image/ic-line@.svg" height="32px" alt="">
+          <img src="./image/ic-facebook.svg" height="32px" alt="">
+        </div>
+      </div>
+      <div class="col-md-5 col-12 d-flex">
+        <p class="footer-rights text-primary">
+          © 2018 Sweetaste* All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!--footer end-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
